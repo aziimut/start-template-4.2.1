@@ -1,0 +1,22 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+/*!
+ * Main style code
+ *
+*/
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: $default-font;
+	overflow-x: hidden;
+	color: $text;
+	background-color: #fff;
+}
+
+
+
+
+@import "media"; // Always at the end
